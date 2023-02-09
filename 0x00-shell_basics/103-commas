@@ -1,2 +1,2 @@
 #!/bin/bash
-ls  --group-directories-first -lahp --format=comma
+ls -lahp --format=comma | sort
