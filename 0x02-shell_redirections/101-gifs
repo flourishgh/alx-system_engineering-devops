@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./ -type f  -name *.lock  -empty -printf "%f\n" |sort --ignore-case
+find ./ -type f  -name *.lock  -empty -printf "%f\n" |sort --ignore-case|cut -f1 -d"."
