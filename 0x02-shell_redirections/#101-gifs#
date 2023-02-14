@@ -1,3 +1,0 @@
-#!/bin/bash
-find -type f -name "*.gif" -printf
-    |rev|cut -f 2- -d"."|rev|sort --ignore-case
